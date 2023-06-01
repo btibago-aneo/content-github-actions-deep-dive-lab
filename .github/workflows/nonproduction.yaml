@@ -22,7 +22,7 @@ jobs:
       - name: Set up node js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 14
       - name: Build site
         run:  |
           npm ci
